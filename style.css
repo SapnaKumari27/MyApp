@@ -1,33 +1,44 @@
-h1, h2 {
+h1 {
   font-family: Lato;
 }
 .logo{
   float : right;
 }
 h1{
+  
   background-color: rgb(183, 147, 241);
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 20px;
   padding-right: 20px;
+  border: 2px solid black;
 
 }
 body{
   margin: 0px;
   margin-top: 0px;
+  
 }
 nav{
   background-color: antiquewhite;
+ 
 
+}
+.nav1{
+  border: 2px solid black;
+  border-top: 0px;
+  border-bottom: 0px;
+  
 }
 nav a{
 padding: 20px;
 color:rgb(12, 12, 12);
+
 }
 main {
 
   background-color: rgb(228, 212, 243);
-  border: 1px solid gray;
+  border: 2px solid rgb(5, 5, 5);
   font-size: 1.2em;
   padding: 1em;
 }
@@ -40,25 +51,31 @@ main div {
 }
 .userForm{
   background-color: antiquewhite;
-  border: 2px solid gray;
+  border: 2px solid rgb(12, 12, 12);
+  border-top: 0px;
   padding: 20px;
   font-size: 1.2em;
 }
-form{
-  
-}
 input[type='text'] {
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px 0px grey;
   width: 90%;
   padding: 15px;
   margin: 20px;
 }
 .submit-btn {
-
-  padding: 0px;
+  
+  padding: 10px 10px 3px 10px;
   font-size: 1.2em;
-  border: 1px solid gray;
+  border: 1px solid rgb(7, 7, 7);
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px 0px grey;
   background-color: rgb(183, 147, 241);
   
+}
+.button{
+  text-align: right;
 }
 .credits{
   float:right
@@ -66,4 +83,5 @@ input[type='text'] {
 footer{
   background-color: rgb(228, 212, 243);
   padding: 20px 10px 20px 10px;
+
 }
