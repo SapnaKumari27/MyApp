@@ -83,5 +83,11 @@ input[type='text'] {
 footer{
   background-color: rgb(228, 212, 243);
   padding: 20px 10px 20px 10px;
+  position: sticky;
+  bottom: 0px;
 
+}
+header{
+  position: sticky;
+  top: 0px;
 }
